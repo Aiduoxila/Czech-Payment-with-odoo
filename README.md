@@ -1,6 +1,6 @@
 # Czech-Payment-with-odoo
 Czech Payment Integration with odoo
-
+Integrate local Czech payment providers like GoPay and PayU Czech into Odoo
 
 ##cz_payment_integration/
 │
