@@ -13,4 +13,20 @@
             </form>
         </field>
     </record>
+    <record id="sepa_payment_provider_form" model="ir.ui.view">
+        <field name="name">sepa.payment.provider.form</field>
+        <field name="model">payment.sepa</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" string="Provider Name"/>
+                        <field name="state"/>
+                        <field name="iban"/>
+                        <field name="bic"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
 </odoo>
