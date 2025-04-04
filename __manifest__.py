@@ -7,6 +7,7 @@
     'depends': ['account', 'payment'],
     'data': [
         'views/payment_provider_views.xml',
+        'views/config_settings_view.xml',  # Add the settings view
         'security/ir.model.access.csv',
     ],
     'installable': True,
